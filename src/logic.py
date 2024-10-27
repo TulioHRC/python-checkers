@@ -69,8 +69,8 @@ def get_possibilities_to_kill_on_place(board, row, column, to_kill): # Returns a
       c -= 1
       if board[r][c] == None and is_killing:
         kills.append((r, c))
-      elif board[r][c] and board[r][c][0] == to_kill:
-        if is_killing: break
+      elif board[r][c]:
+        if is_killing or board[r][c][0] != to_kill: break
         else: is_killing = True
     r, c = (row, column)
     is_killing = False
@@ -79,8 +79,8 @@ def get_possibilities_to_kill_on_place(board, row, column, to_kill): # Returns a
       c += 1
       if board[r][c] == None and is_killing:
         kills.append((r, c))
-      elif board[r][c] and board[r][c][0] == to_kill:
-        if is_killing: break
+      elif board[r][c]:
+        if is_killing or board[r][c][0] != to_kill: break
         else: is_killing = True
     r, c = (row, column)
     is_killing = False
@@ -89,8 +89,8 @@ def get_possibilities_to_kill_on_place(board, row, column, to_kill): # Returns a
       c -= 1
       if board[r][c] == None and is_killing:
         kills.append((r, c))
-      elif board[r][c] and board[r][c][0] == to_kill:
-        if is_killing: break
+      elif board[r][c]:
+        if is_killing or board[r][c][0] != to_kill: break
         else: is_killing = True
     r, c = (row, column)
     is_killing = False
@@ -99,8 +99,8 @@ def get_possibilities_to_kill_on_place(board, row, column, to_kill): # Returns a
       c += 1
       if board[r][c] == None and is_killing:
         kills.append((r, c))
-      elif board[r][c] and board[r][c][0] == to_kill:
-        if is_killing: break
+      elif board[r][c]:
+        if is_killing or board[r][c][0] != to_kill: break
         else: is_killing = True
   else:
     if (row >= 2 and column <= 5) and board[row-1][column+1] and board[row-1][column+1][0] == to_kill and board[row-2][column+2] == None:
