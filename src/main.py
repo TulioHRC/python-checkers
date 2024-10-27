@@ -11,7 +11,7 @@ initial_board = [
     [None, 'B', None, 'B', None, 'B', None, 'B'],
     ['B', None, 'B', None, 'B', None, 'B', None]
 ]
-
+"""
 initial_board = [[None, None, None, None, None, None, None, None],
                                [None, None, None, None, None, None, None, None],
                                [None, None, None, None, None, None, None, None],
@@ -20,6 +20,8 @@ initial_board = [[None, None, None, None, None, None, None, None],
                                [None, None, None, None, None, None, None, None],
                                [None, None, None, None, None, None, None, None],
                                [None, None, None, None, 'B_promoved_', None, 'B_promoved_', None]]
+"""
+
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
