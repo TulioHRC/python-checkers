@@ -52,6 +52,7 @@ def get_possibilities_to_move_on_place(board, row, column, last_kill):
 
   kills = get_possibilities_to_kill_on_place(board, row, column, to_kill)
   
+  # Bug here (change [:-1] to [0]) - Hypothesis helped to find it
   if len(get_possibilities_to_kill_on_board(board, board[row][column][:-1], to_kill)) > 0 and len(kills) == 0:
     return []
 

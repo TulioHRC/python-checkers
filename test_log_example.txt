@@ -1,0 +1,665 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.3.3, pluggy-1.5.0
+rootdir: /home/tulio/Desktop/python-checkers
+plugins: asyncio-0.24.0, hypothesis-6.113.0, xdist-3.6.1
+asyncio: mode=strict, default_loop_scope=None
+collected 3 items
+
+src/test_logic.py 0 1
+B_promoved_
+0 1
+R
+0 3
+B_promoved_
+0 5
+R
+0 1
+R
+0 3
+B_promoved_
+0 5
+R
+0 1
+R
+0 3
+B_promoved_
+0 5
+R
+0 1
+R
+0 3
+B_promoved_
+0 5
+R
+0 1
+R
+0 3
+B_promoved_
+0 5
+R
+0 1
+R
+0 3
+B_promoved_
+0 5
+R
+0 1
+R
+0 3
+B_promoved_
+0 5
+R
+0 3
+B_promoved_
+1 2
+B_promoved_
+1 4
+R
+0 3
+B_promoved_
+1 2
+B_promoved_
+1 4
+R
+0 3
+B_promoved_
+1 2
+B_promoved_
+1 4
+R
+0 3
+B_promoved_
+1 2
+B_promoved_
+1 4
+R
+0 3
+B_promoved_
+1 2
+B_promoved_
+1 4
+R
+0 3
+B_promoved_
+1 2
+B_promoved_
+1 4
+R
+1 2
+B_promoved_
+1 4
+R
+1 2
+B_promoved_
+1 4
+R
+2 1
+B
+3 0
+B_promoved_
+4 7
+B
+5 4
+B
+6 1
+B_promoved_
+6 5
+B_promoved_
+7 0
+B
+1 2
+B
+1 4
+B
+1 4
+B
+1 4
+B
+1 4
+B
+1 4
+B
+1 4
+B
+1 6
+B
+1 6
+B
+2 5
+B
+3 2
+R
+5 2
+B
+5 4
+B
+5 6
+B
+6 1
+B_promoved_
+6 7
+B
+7 0
+B
+1 6
+B
+2 3
+B
+3 6
+R
+5 2
+B
+5 4
+B
+5 6
+B
+6 1
+B_promoved_
+6 7
+B
+7 0
+B
+1 6
+B
+1 6
+B
+2 1
+B
+2 3
+B
+3 2
+R
+5 4
+B
+2 1
+B
+2 3
+B
+3 6
+R
+5 4
+B
+5 6
+B
+6 1
+B
+6 3
+B
+7 0
+B
+7 2
+B
+2 1
+B
+2 3
+B
+3 2
+R
+5 6
+B
+2 1
+B
+2 3
+B
+3 2
+R
+5 6
+B
+2 3
+B
+2 5
+B
+2 3
+B
+2 3
+B
+2 5
+B
+4 1
+R
+5 6
+B
+6 1
+B
+6 3
+B
+6 5
+B
+7 2
+B
+7 4
+B
+2 3
+B
+2 3
+B
+2 5
+B
+2 7
+B
+3 6
+R
+6 1
+B
+2 5
+B
+2 7
+B
+4 3
+R
+6 1
+B
+6 3
+B
+6 5
+B
+6 7
+B
+7 4
+B
+7 6
+B
+2 5
+B
+2 7
+B
+3 6
+R
+6 3
+B
+2 7
+B
+3 0
+B
+2 7
+B
+3 0
+B
+4 3
+R
+6 3
+B
+6 5
+B
+6 7
+B
+7 0
+B
+7 4
+B
+7 6
+B
+2 7
+B
+3 0
+B
+3 0
+R
+3 2
+B
+3 4
+B
+6 5
+B
+6 7
+B
+7 0
+B
+7 2
+B
+7 4
+B
+7 6
+B
+3 0
+B
+3 2
+B
+3 6
+R
+6 5
+B
+6 7
+B
+7 0
+B
+7 2
+B
+7 4
+B
+7 6
+B
+2 7
+B
+3 0
+B
+4 3
+R
+6 5
+B
+6 7
+B
+7 0
+B
+7 2
+B
+7 4
+B
+7 6
+B
+2 7
+R
+3 0
+B
+3 6
+B
+6 5
+B
+6 7
+B
+7 0
+B
+7 2
+B
+7 4
+B
+7 6
+B
+2 7
+R
+3 0
+R
+3 6
+R
+6 5
+R
+6 7
+R
+7 0
+B_promoved_
+2 7
+R
+3 0
+R
+3 6
+R
+6 5
+R
+6 7
+R
+7 0
+B_promoved_
+2 7
+R
+3 0
+R
+3 6
+R
+6 5
+R
+6 7
+R
+7 0
+B_promoved_
+7 2
+B_promoved_
+2 7
+R
+3 0
+R
+3 6
+R
+6 5
+R
+6 7
+R
+7 0
+B_promoved_
+2 7
+R
+3 0
+R
+3 6
+R
+6 5
+R
+6 7
+R
+2 7
+R
+3 0
+R
+3 6
+R
+6 5
+R
+7 2
+B_promoved_
+2 7
+R
+3 0
+R
+3 6
+R
+7 0
+B_promoved_
+7 2
+B_promoved_
+2 7
+R
+3 0
+R
+6 7
+R
+7 0
+B_promoved_
+7 2
+B_promoved_
+2 7
+R
+4 1
+R
+6 7
+R
+7 0
+B_promoved_
+7 2
+B_promoved_
+3 2
+R
+4 1
+R
+6 7
+R
+7 0
+B_promoved_
+7 2
+B_promoved_
+2 7
+R
+3 0
+R
+3 6
+R
+6 5
+R
+6 7
+R
+7 0
+B_promoved_
+2 7
+R
+3 0
+R
+3 6
+R
+6 5
+R
+2 7
+R
+3 0
+R
+3 6
+R
+7 0
+B_promoved_
+2 7
+R
+3 0
+R
+3 6
+R
+7 4
+B_promoved_
+2 7
+R
+7 0
+B_promoved_
+7 2
+B_promoved_
+7 4
+B_promoved_
+3 2
+R
+7 0
+B_promoved_
+7 2
+B_promoved_
+7 4
+B_promoved_
+4 3
+R
+7 0
+B_promoved_
+7 2
+B_promoved_
+4 3
+R
+7 0
+B_promoved_
+4 3
+R
+7 4
+B_promoved_
+4 3
+R
+4 3
+R
+7 0
+B
+7 4
+B_promoved_
+4 3
+R
+7 2
+B_promoved_
+7 4
+B_promoved_
+4 3
+R
+7 0
+B_promoved_
+7 2
+B_promoved_
+4 3
+R
+7 2
+B_promoved_
+7 2
+B_promoved_
+7 4
+B_promoved_
+7 6
+B_promoved_
+5 0
+R
+7 0
+B_promoved_
+7 2
+B_promoved_
+4 7
+R
+7 0
+B_promoved_
+7 2
+B_promoved_
+4 3
+R
+7 4
+B_promoved_
+7 4
+B
+5 0
+R
+7 4
+B_promoved_
+7 6
+B_promoved_
+4 7
+R
+7 4
+B_promoved_
+7 6
+B_promoved_
+4 3
+R
+7 4
+B
+4 3
+R
+7 6
+B_promoved_
+7 4
+B_promoved_
+7 6
+B_promoved_
+4 3
+R
+7 4
+B_promoved_
+F..
+
+=================================== FAILURES ===================================
+___________________ test_get_possibilities_to_move_on_place ____________________
+
+    @given(board=valid_board_strategy())
+>   def test_get_possibilities_to_move_on_place(board):
+
+src/test_logic.py:25: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+board = [[None, None, None, None, None, None, ...], [None, None, None, None, None, None, ...], [None, None, None, None, None, ...None, None, None, None, ...], [None, None, None, 'R', None, None, ...], [None, None, None, None, None, None, ...], ...]
+
+    @given(board=valid_board_strategy())
+    def test_get_possibilities_to_move_on_place(board):
+        for row in range(8):
+            for column in range(8):
+                if board[row][column] is not None:
+                    last_kill = None
+                    possibilities = get_possibilities_to_move_on_place(board, row, column, last_kill)
+                    print(row, column)
+                    print(board[row][column])
+                    kills = get_possibilities_to_kill_on_board(board, board[row][column][0], 'R' if board[row][column][0] != 'R' else 'B')
+                    assert isinstance(possibilities, list)
+                    assert isinstance(kills, list)
+                    for pos in possibilities:
+                        assert 0 <= pos[0] < 8 and pos[0] >= 0
+                        assert 0 <= pos[1] < 8 and pos[1] >= 0
+                        if len(kills) > 0:
+>                           assert pos in kills
+E                           assert (6, 3) in [(3, 2), (2, 1), (1, 0)]
+E                           Falsifying example: test_get_possibilities_to_move_on_place(
+E                               board=[[None, None, None, None, None, None, None, None],
+E                                [None, None, None, None, None, None, None, None],
+E                                [None, None, None, None, None, None, None, None],
+E                                [None, None, None, None, None, None, None, None],
+E                                [None, None, None, 'R', None, None, None, None],
+E                                [None, None, None, None, None, None, None, None],
+E                                [None, None, None, None, None, None, None, None],
+E                                [None, None, None, None, 'B_promoved_', None, 'B_promoved_', None]],
+E                           )
+
+src/test_logic.py:40: AssertionError
+=========================== short test summary info ============================
+FAILED src/test_logic.py::test_get_possibilities_to_move_on_place - assert (6...
+========================= 1 failed, 2 passed in 26.76s =========================
